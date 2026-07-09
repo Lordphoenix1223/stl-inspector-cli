@@ -1,0 +1,28 @@
+{
+  "file_name": "bench_mechanism_v3_base.stl",
+  "stl_type": "ascii",
+  "triangle_count": 820,
+  "vertex_count": 2460,
+  "units": "assumed_mm",
+  "dimensions_mm": {
+    "x": 92.0,
+    "y": 38.0,
+    "z": 22.0
+  },
+  "min_corner_mm": {
+    "x": 0.0,
+    "y": 0.0,
+    "z": 0.0
+  },
+  "max_corner_mm": {
+    "x": 92.0,
+    "y": 38.0,
+    "z": 22.0
+  },
+  "centroid_mm": {
+    "x": 44.71479199186992,
+    "y": 19.018212215447154,
+    "z": 4.3983739837398375
+  },
+  "surface_area_sq_mm": 13503.763178397254
+}
