@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "stl-inspector-cli"
+version = "0.1.0"
+description = "A small CLI for reporting STL geometry metadata."
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [{ name = "Artin Kennedy" }]
+dependencies = []
+
+[project.scripts]
+stl-inspector = "stl_inspector.cli:main"
+
+[tool.setuptools.packages.find]
+where = ["src"]
