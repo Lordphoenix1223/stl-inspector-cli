@@ -27,7 +27,18 @@ python -m pip install -e .
 
 ```bash
 python -m unittest discover -s tests
+python -m build
 ```
+
+## See It Work
+
+The CLI is designed to be copied into a print-review workflow:
+
+```bash
+stl-inspector part_a.stl --format json --pretty
+```
+
+It reports the file type, triangle count, dimensions, surface area, and centroid without opening a slicer. The committed [sample reports](./sample_reports/) are representative output from the same geometry-report shape used by the CLI.
 
 ## Usage
 
